@@ -4,18 +4,17 @@ You can either run main or all the numbered cells individually its the same code
 The structure is as follows:
 ```
 ├── README.md
-└── Wiso/
-    ├── Environment.yml           # Dependencies for Conda
-    ├── main.ipynb
-    ├── 1_Data_Preparation.ipynb
-    ├── 2_KPIs.ipynb
-    ├── 3_Site_Classification.ipynb
-    ├── 4_Clustering.ipynb
-    ├── 5_Regression.ipynb
-    ├── intermediate_data         # to make multiple notebooks work
-    └── Data_Share/               # Standardized folder name (no spaces)
-        ├── Charging_Sessions.csv
-        └── Weather_Burbank_Airport.csv
+├── Environment.yml           # Dependencies for Conda
+├── main.ipynb
+├── 1_Data_Preparation.ipynb
+├── 2_KPIs.ipynb
+├── 3_Site_Classification.ipynb
+├── 4_Clustering.ipynb
+├── 5_Regression.ipynb
+├── intermediate_data         # to make multiple notebooks work
+└── Data_Share/               # Standardized folder name (no spaces)
+    ├── Charging_Sessions.csv
+    └── Weather_Burbank_Airport.csv
 ```
 
 The main file are structured like this the single files are analog
